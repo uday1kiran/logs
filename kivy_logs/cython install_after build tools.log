@@ -1,0 +1,350 @@
+C:\Users\uday>pip install cython==0.28.6
+Collecting cython==0.28.6
+  Downloading Cython-0.28.6.tar.gz (1.9 MB)
+     |████████████████████████████████| 1.9 MB 6.4 MB/s
+Using legacy 'setup.py install' for cython, since package 'wheel' is not installed.
+Installing collected packages: cython
+    Running setup.py install for cython ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'c:\users\uday\appdata\local\programs\python\python39\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\uday\\AppData\\Local\\Temp\\pip-install-agpl3us3\\cython\\setup.py'"'"'; __file__='"'"'C:\\Users\\uday\\AppData\\Local\\Temp\\pip-install-agpl3us3\\cython\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\uday\AppData\Local\Temp\pip-record-lt93u_ix\install-record.txt' --single-version-externally-managed --compile --install-headers 'c:\users\uday\appdata\local\programs\python\python39\Include\cython'
+         cwd: C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\
+    Complete output (335 lines):
+    Unable to find pgen, not compiling formal grammar.
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib.win-amd64-3.9
+    copying cython.py -> build\lib.win-amd64-3.9
+    creating build\lib.win-amd64-3.9\Cython
+    copying Cython\CodeWriter.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\Coverage.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\Debugging.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\Shadow.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\StringIOTree.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\TestUtils.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\Utils.py -> build\lib.win-amd64-3.9\Cython
+    copying Cython\__init__.py -> build\lib.win-amd64-3.9\Cython
+    creating build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\BuildExecutable.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\Cythonize.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\Dependencies.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\Distutils.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\Inline.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\IpythonMagic.py -> build\lib.win-amd64-3.9\Cython\Build
+    copying Cython\Build\__init__.py -> build\lib.win-amd64-3.9\Cython\Build
+    creating build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\AnalysedTreeTransforms.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Annotate.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\AutoDocTransforms.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Buffer.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Builtin.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\CmdLine.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Code.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\CodeGeneration.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\CythonScope.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\DebugFlags.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Errors.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\ExprNodes.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\FlowControl.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\FusedNode.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Future.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Interpreter.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Lexicon.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Main.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\MemoryView.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\ModuleNode.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Naming.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Nodes.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Optimize.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Options.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\ParseTreeTransforms.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Parsing.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Pipeline.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\PyrexTypes.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Pythran.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Scanning.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\StringEncoding.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Symtab.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\TreeFragment.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\TreePath.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\TypeInference.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\TypeSlots.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\UtilityCode.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\UtilNodes.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Version.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Visitor.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\__init__.py -> build\lib.win-amd64-3.9\Cython\Compiler
+    creating build\lib.win-amd64-3.9\Cython\Runtime
+    copying Cython\Runtime\__init__.py -> build\lib.win-amd64-3.9\Cython\Runtime
+    creating build\lib.win-amd64-3.9\Cython\Distutils
+    copying Cython\Distutils\build_ext.py -> build\lib.win-amd64-3.9\Cython\Distutils
+    copying Cython\Distutils\extension.py -> build\lib.win-amd64-3.9\Cython\Distutils
+    copying Cython\Distutils\old_build_ext.py -> build\lib.win-amd64-3.9\Cython\Distutils
+    copying Cython\Distutils\__init__.py -> build\lib.win-amd64-3.9\Cython\Distutils
+    creating build\lib.win-amd64-3.9\Cython\Debugger
+    copying Cython\Debugger\Cygdb.py -> build\lib.win-amd64-3.9\Cython\Debugger
+    copying Cython\Debugger\DebugWriter.py -> build\lib.win-amd64-3.9\Cython\Debugger
+    copying Cython\Debugger\libcython.py -> build\lib.win-amd64-3.9\Cython\Debugger
+    copying Cython\Debugger\libpython.py -> build\lib.win-amd64-3.9\Cython\Debugger
+    copying Cython\Debugger\__init__.py -> build\lib.win-amd64-3.9\Cython\Debugger
+    creating build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Debugger\Tests\TestLibCython.py -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Debugger\Tests\test_libcython_in_gdb.py -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Debugger\Tests\test_libpython_in_gdb.py -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Debugger\Tests\__init__.py -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    creating build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Actions.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\DFA.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Errors.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Lexicons.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Machines.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Regexps.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Scanners.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Timing.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Traditional.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Transitions.py -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\__init__.py -> build\lib.win-amd64-3.9\Cython\Plex
+    creating build\lib.win-amd64-3.9\Cython\Tests
+    copying Cython\Tests\TestCodeWriter.py -> build\lib.win-amd64-3.9\Cython\Tests
+    copying Cython\Tests\TestJediTyper.py -> build\lib.win-amd64-3.9\Cython\Tests
+    copying Cython\Tests\TestStringIOTree.py -> build\lib.win-amd64-3.9\Cython\Tests
+    copying Cython\Tests\xmlrunner.py -> build\lib.win-amd64-3.9\Cython\Tests
+    copying Cython\Tests\__init__.py -> build\lib.win-amd64-3.9\Cython\Tests
+    creating build\lib.win-amd64-3.9\Cython\Build\Tests
+    copying Cython\Build\Tests\TestInline.py -> build\lib.win-amd64-3.9\Cython\Build\Tests
+    copying Cython\Build\Tests\TestIpythonMagic.py -> build\lib.win-amd64-3.9\Cython\Build\Tests
+    copying Cython\Build\Tests\TestStripLiterals.py -> build\lib.win-amd64-3.9\Cython\Build\Tests
+    copying Cython\Build\Tests\__init__.py -> build\lib.win-amd64-3.9\Cython\Build\Tests
+    creating build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestBuffer.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestCmdLine.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestFlowControl.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestGrammar.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestMemView.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestParseTreeTransforms.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestSignatureMatching.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestTreeFragment.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestTreePath.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestTypes.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestUtilityLoad.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\TestVisitor.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    copying Cython\Compiler\Tests\__init__.py -> build\lib.win-amd64-3.9\Cython\Compiler\Tests
+    creating build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\__init__.py -> build\lib.win-amd64-3.9\Cython\Utility
+    creating build\lib.win-amd64-3.9\Cython\Tempita
+    copying Cython\Tempita\compat3.py -> build\lib.win-amd64-3.9\Cython\Tempita
+    copying Cython\Tempita\_looper.py -> build\lib.win-amd64-3.9\Cython\Tempita
+    copying Cython\Tempita\_tempita.py -> build\lib.win-amd64-3.9\Cython\Tempita
+    copying Cython\Tempita\__init__.py -> build\lib.win-amd64-3.9\Cython\Tempita
+    creating build\lib.win-amd64-3.9\pyximport
+    copying pyximport\pyxbuild.py -> build\lib.win-amd64-3.9\pyximport
+    copying pyximport\pyximport.py -> build\lib.win-amd64-3.9\pyximport
+    copying pyximport\__init__.py -> build\lib.win-amd64-3.9\pyximport
+    creating build\lib.win-amd64-3.9\Cython\Includes
+    copying Cython\Includes\openmp.pxd -> build\lib.win-amd64-3.9\Cython\Includes
+    creating build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\array.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\bool.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\buffer.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\bytes.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\cobject.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\complex.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\datetime.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\dict.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\exc.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\float.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\function.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\getargs.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\instance.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\int.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\iterator.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\list.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\long.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\longintrepr.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\mapping.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\mem.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\method.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\module.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\number.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\object.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\oldbuffer.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\pycapsule.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\pystate.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\pythread.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\ref.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\sequence.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\set.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\slice.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\string.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\tuple.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\type.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\unicode.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\version.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\weakref.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    copying Cython\Includes\cpython\__init__.pxd -> build\lib.win-amd64-3.9\Cython\Includes\cpython
+    creating build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python2.5.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_bool.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_buffer.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_bytes.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_cobject.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_complex.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_dict.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_exc.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_float.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_function.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_getargs.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_instance.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_int.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_iterator.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_list.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_long.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_mapping.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_mem.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_method.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_module.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_number.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_object.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_oldbuffer.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_pycapsule.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_ref.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_sequence.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_set.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_string.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_tuple.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_type.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_unicode.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_version.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\python_weakref.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\stdio.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\stdlib.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    copying Cython\Includes\Deprecated\stl.pxd -> build\lib.win-amd64-3.9\Cython\Includes\Deprecated
+    creating build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\errno.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\float.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\limits.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\locale.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\math.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\setjmp.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\signal.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\stddef.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\stdint.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\stdio.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\stdlib.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\string.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\time.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    copying Cython\Includes\libc\__init__.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libc
+    creating build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\algorithm.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\cast.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\complex.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\deque.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\functional.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\iterator.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\limits.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\list.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\map.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\memory.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\pair.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\queue.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\set.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\stack.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\string.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\typeindex.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\typeinfo.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\unordered_map.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\unordered_set.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\utility.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\vector.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    copying Cython\Includes\libcpp\__init__.pxd -> build\lib.win-amd64-3.9\Cython\Includes\libcpp
+    creating build\lib.win-amd64-3.9\Cython\Includes\numpy
+    copying Cython\Includes\numpy\math.pxd -> build\lib.win-amd64-3.9\Cython\Includes\numpy
+    copying Cython\Includes\numpy\__init__.pxd -> build\lib.win-amd64-3.9\Cython\Includes\numpy
+    creating build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\dlfcn.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\fcntl.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\ioctl.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\mman.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\resource.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\select.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\signal.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\stat.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\stdio.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\stdlib.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\strings.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\time.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\types.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\unistd.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\wait.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Includes\posix\__init__.pxd -> build\lib.win-amd64-3.9\Cython\Includes\posix
+    copying Cython\Compiler\Code.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\FlowControl.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\ParseTreeTransforms.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Parsing.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Scanning.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Compiler\Visitor.pxd -> build\lib.win-amd64-3.9\Cython\Compiler
+    copying Cython\Runtime\refnanny.pyx -> build\lib.win-amd64-3.9\Cython\Runtime
+    copying Cython\Debugger\Tests\codefile -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Debugger\Tests\cfuncs.c -> build\lib.win-amd64-3.9\Cython\Debugger\Tests
+    copying Cython\Plex\Actions.pxd -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Plex\Scanners.pxd -> build\lib.win-amd64-3.9\Cython\Plex
+    copying Cython\Utility\CConvert.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CpdefEnums.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CppConvert.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\MemoryView.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\TestCythonScope.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\TestCyUtilityLoader.pyx -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\AsyncGen.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Buffer.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Builtins.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Capsule.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CMath.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CommonStructures.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Complex.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Coroutine.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CythonFunction.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Embed.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Exceptions.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\ExtensionTypes.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\FunctionArguments.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\ImportExport.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\MemoryView_C.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\ModuleSetupCode.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\ObjectHandling.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Optimize.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Overflow.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Printing.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\Profile.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\StringTools.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\TestUtilityLoader.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\TypeConversion.c -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\arrayarray.h -> build\lib.win-amd64-3.9\Cython\Utility
+    copying Cython\Utility\CppSupport.cpp -> build\lib.win-amd64-3.9\Cython\Utility
+    running build_ext
+    building 'Cython.Plex.Scanners' extension
+    creating build\temp.win-amd64-3.9
+    creating build\temp.win-amd64-3.9\Release
+    creating build\temp.win-amd64-3.9\Release\Users
+    creating build\temp.win-amd64-3.9\Release\Users\uday
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp\pip-install-agpl3us3
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython
+    creating build\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64\cl.exe /c /nologo /Ox /W3 /GL /DNDEBUG /MD -Ic:\users\uday\appdata\local\programs\python\python39\include -Ic:\users\uday\appdata\local\programs\python\python39\include -IC:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include -IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared -IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um -IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt -IC:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt /TcC:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c /Fobuild\temp.win-amd64-3.9\Release\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.obj
+    Scanners.c
+    C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c(3498): warning C4996: '_PyUnicode_get_wstr_length': deprecated in 3.3
+    C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c(8521): error C2039: 'tp_print': is not a member of '_typeobject'
+    c:\users\uday\appdata\local\programs\python\python39\include\cpython/object.h(193): note: see declaration of '_typeobject'
+    C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c(9078): warning C4996: '_PyUnicode_get_wstr_length': deprecated in 3.3
+    C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c(9094): warning C4996: '_PyUnicode_get_wstr_length': deprecated in 3.3
+    C:\Users\uday\AppData\Local\Temp\pip-install-agpl3us3\cython\Cython\Plex\Scanners.c(9543): warning C4996: 'PyUnicode_FromUnicode': deprecated in 3.3
+    error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.28.29333\\bin\\HostX86\\x64\\cl.exe' failed with exit code 2
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'c:\users\uday\appdata\local\programs\python\python39\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\uday\\AppData\\Local\\Temp\\pip-install-agpl3us3\\cython\\setup.py'"'"'; __file__='"'"'C:\\Users\\uday\\AppData\\Local\\Temp\\pip-install-agpl3us3\\cython\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\uday\AppData\Local\Temp\pip-record-lt93u_ix\install-record.txt' --single-version-externally-managed --compile --install-headers 'c:\users\uday\appdata\local\programs\python\python39\Include\cython' Check the logs for full command output.
+WARNING: You are using pip version 20.2.3; however, version 20.3.1 is available.
+You should consider upgrading via the 'c:\users\uday\appdata\local\programs\python\python39\python.exe -m pip install --upgrade pip' command.
