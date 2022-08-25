@@ -1,0 +1,4 @@
+installCRDs: false #as already installed CRDs before
+
+prometheus:
+  enabled: false
