@@ -1,0 +1,60 @@
+ssh -i "Downloads\ssh_key (7).pem" ec2-user@ec2-54-187-123-3.us-west-2.compute.amazonaws.com
+
+https://www.youtube.com/watch?v=MpovOI5eK58
+
+repo: digitalocean/Kubernetes-Starter-Kit-Developers
+
+install helm
+https://helm.sh/docs/intro/install/
+
+route53:
+https://us-east-1.console.aws.amazon.com/route53/v2/hostedzones#ListRecordSets/Z0450273100BDOJ4Z26A6
+
+helm repo list
+
+https://artifacthub.io/packages/helm/ingress-nginx/ingress-nginx
+
+full values to list in nginx:
+https://github.com/kubernetes/ingress-nginx/blob/main/charts/ingress-nginx/values.yaml
+
+create ns: ingress-nginx
+"C:\Users\UReddy\Desktop\ssltesting\nginx-values.yml"
+
+helm install ingress-nginx ingress-nginx/ingress-nginx -n ingress-nginx -f nginx-values.yml
+
+kubectl get all -n ingress-nginx
+
+fetch ip/domainname of ingress-nginx-controller service above.
+
+register this ip of loadbalancer svc in route53.
+
+kubectl create ns backend
+kubectl apply -f deployment.yaml
+apply ingress.yaml
+kubectl get ingress -n backend
+---wait till the address generated
+
+
+https://artifacthub.io/packages/helm/cert-manager/cert-manager
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.7.1/cert-manager.crds.yaml
+kubectl get crds
+helm repo add jetstack https://charts.jetstack.io
+helm repo update
+kubectl create ns cert-maanger
+helm install cert-manager -n cert-manager --version v1.7.1 jetstack/cert-manager -f cert-manager-values.yaml
+kubectl apply -f issuer.yaml
+
+
+
+reconfigure nginx ingress.
+kubectl apply -f ingress.yaml
+
+kubectl get order -n backend --> will show if certificate order pending
+get issuer
+get challenges
+get certificaterequests
+get certificate
+
+https://youtu.be/MpovOI5eK58?t=4029
+
+ kubectl delete secert letsencrypt-nginx -n backend  

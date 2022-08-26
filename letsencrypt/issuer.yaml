@@ -6,7 +6,7 @@ metadata:
 spec:
   acme:
     email: <your_email_here>
-    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    server: https://acme-staging-v02.api.letsencrypt.org/directory #https://acme-v02.api.letsencrypt.org/directory
     privateKeySecretRef:
       name: letsencrypt-nginx-private-key
     solvers:
