@@ -1,0 +1,49 @@
+Create azure resource using this image.
+
+
+allow ssh 22,http 80,https 443 ports.
+80 and 443 for all as letsenrypt server should reach
+ssh your ip is enough
+
+sudo gitlab-ctl reconfigure
+sudo gitlab-rails console -e production
+
+in the console opened:
+
+user = User.where(id: 1).first; user.password = 'new_password'; user.password_confirmation = 'new_password'; user.save!
+
+sudo gitlab-ctl reconfigure
+
+
+To enable ssl:
+
+create a domain entry A record and then :
+
+
+
+sudo apt-get update
+sudo apt-get install certbot
+sudo certbot certonly --standalone -d your-domain.com
+
+sudo nano /etc/gitlab/gitlab.rb
+---
+external_url 'https://your-domain.com'
+
+nginx['ssl_certificate'] = "/etc/letsencrypt/live/your-domain.com/fullchain.pem"
+nginx['ssl_certificate_key'] = "/etc/letsencrypt/live/your-domain.com/privkey.pem"
+
+
+sudo gitlab-ctl reconfigure
+sudo gitlab-ctl restart
+
+
+
+To Autorenew certificates:
+sudo crontab -e
+---
+0 0 1 * * certbot renew --quiet && gitlab-ctl restart nginx
+
+
+
+
+
